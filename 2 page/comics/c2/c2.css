@@ -1,0 +1,92 @@
+/* Base Body Setup */
+body {
+    background-image: url("back.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow-x: hidden;
+    overflow-y:hidden;
+  }
+  
+  /* Book Container */
+  
+  
+  .left-page {
+    background-color: rgb(0, 0, 0);
+    height: 98vh;
+    width: 30vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 10px 0 20px rgb(0, 0, 0);
+    color: aliceblue;
+    overflow-y: scroll;
+    scrollbar-width: none;       
+    -ms-overflow-style: none;    
+    opacity: 98%;
+    border-radius: 10px;
+  }
+  
+  .left-page::-webkit-scrollbar {
+    display: none;              
+  }
+  .page{
+    background-color: rgba(226, 236, 137, 0);
+    height: 98vh;
+    width: 150vh;
+    background-attachment: fixed;
+    margin-left: 32vh;
+    margin-top: -98vh;
+    max-height: 1000vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;       
+    -ms-overflow-style: none;    
+  }
+  
+  .page::-webkit-scrollbar {
+    display: none;               
+  }
+  
+  
+  .inner-page{
+    background-color: rgb(255, 127, 127);
+    height: 98vh;
+    width: 150vh;
+    background-attachment: fixed;
+    
+  }
+  
+  .pdf-image {
+    /* opacity: 90%; */
+    width: 100%;
+    
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    
+  }
+  .nav-buttons button {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #f31515;
+    box-shadow: 0 4px 12px rgba(119, 118, 118, 0.3);
+  
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .nav-buttons button:hover {
+    background-color: #f25757;
+  }
+  
+  h3{
+    margin-left: 10vh;
+  }

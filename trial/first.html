@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Book Flip (Both Sides)</title>
+  <link rel="stylesheet" href="first.css" />
+</head>
+<body>
+  <div class="book">
+    <!-- Page pairs -->
+    <div class="sheet" id="sheet1">
+      <div class="page left">
+        <div class="content">
+          <h2>Page 1</h2>
+          <p>This is the first page (left).</p>
+        </div>
+      </div>
+      <div class="page right">
+        <div class="content">
+          <h2>Page 2</h2>
+          <p>This is the second page (right).</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sheet" id="sheet2">
+      <div class="page left">
+        <div class="content">
+          <h2>Page 3</h2>
+          <p>This is the third page (left).</p>
+        </div>
+      </div>
+      <div class="page right">
+        <div class="content">
+          <h2>Page 4</h2>
+          <p>This is the fourth page (right).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <button onclick="prevPage()">⬅️ Prev</button>
+    <button onclick="nextPage()">Next ➡️</button>
+  </div>
+
+  <script src="first.js"></script>
+</body>
+</html>
